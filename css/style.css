@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  flex-flow: wrap;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
+}
+.title {
+  font-size: 3rem;
+}
+.title.red {
+  color: #ff0000;
+}
+.start,
+.btn-control {
+  outline: none;
+  padding: 10px 33px;
+  border: 2px solid #f85;
+  border-radius: 11px;
+  font-size: 2rem;
+  cursor: pointer;
+  background: #f85;
+  color: #fff;
+  display: inline-block;
+  margin: 18px;
+  transition: 0.3s;
+}
+.start:hover,
+.btn-control:hover {
+  background: transparent;
+  color: #f85;
+  transform: scale(1.1);
+}
+canvas {
+  border: 1px solid #000;
+  margin: 5px;
+  height: 90vh;
+  background: #000;
+}

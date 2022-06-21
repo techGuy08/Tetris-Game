@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris Game</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <canvas width="240" height="400" id="canvas"></canvas>
+      <div class="screen">
+        <div class="info">
+          <h1 class="title">Tetris Challenge</h1>
+          <h2>Play Time : <span class="time">0</span></h2>
+          <h2>Score : <span class="score">0</span></h2>
+          <button class="start">Start</button>
+        </div>
+        <div class="controls">
+          <button class="btn-control" data-key="ArrowLeft">&lAarr;</button>
+          <button class="btn-control" data-key="ArrowRight">&rAarr;</button>
+          <button class="btn-control" data-key="ArrowDown">&dArr;</button>
+          <button class="btn-control" data-key="q">&olarr;</button>
+          <button class="btn-control" data-key="w">&orarr;</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
