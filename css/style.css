@@ -64,4 +64,7 @@ canvas {
     flex-basis: 18%;
     margin: 0;
   }
+  canvas{
+    margin: 5px auto;
+  }
 }
